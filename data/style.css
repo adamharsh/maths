@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	/*height: 100vh;*/
+}
+body div.main{
+	width: 100%;
+	height: 100%;
+	background:url(mat_bk.jpg) center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-left: 14%;
+	padding-top: 6%;
+}
+body div.main div.m_container{
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	
+	color:yellow;
+	/*text-align: right;*/
+	font-size: 32px;
+}
+body div.main div.m_container div.nav{
+	width: 100%;
+	margin-bottom: 12%;
+}
+
+body div.main div.m_container div.nav ul{
+	/*list-style-type: none;*/
+
+}
+body div.main div.m_container div.nav ul li{
+	float: left;
+	margin-right: 4%;
+}
+body div.main div.m_container div.nav ul li a{
+	color: red;
+}
+body div.main div.m_container div.nav ul li a.active{
+	color: white;
+}
+body div.main div.m_container div.nav ul li a:hover{
+	text-decoration: none;
+	text-align: center;
+}
+body div.main div.m_container div.latest
+{
+	background:linear-gradient(white,grey);
+	padding: 2%;
+	height: 30%;
+	width: 90%;
+	color: black;
+
+
+}
+body div.main div.m_container div.latest p.normal{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+body div.main div.m_container div.aim{
+	padding-top: 6%;
+	padding-left: 1%;
+	margin-top: 6%;
+	width: 90%;
+	background: url(images.jpeg) center;
+	background-size: cover;
+}
+body div.main div.m_container div.aim p{
+	color: black;	
+}
+body div.main div.m_container div.aim p.normal{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: black;
+	padding-bottom: 6px;
+	padding-top: 12px;
+	font-weight: 600;
+}
+body div.main div.m_container div.problem{
+	width: 90%;
+	background:radial-gradient(white,grey);
+	padding:3%;
+	color: black;
+	margin-bottom: 1%;
+}
+
+body div.main div.m_container div.leader{
+	width:90%;
+	background-color: rgb(49,48,72);
+	padding-left: 4%;
+}
+body div.main div.m_container div.leader section ol{
+	color: grey;
+}
+body div.main div.m_container div.leader section.person{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 2%;
+
+
+}
+
+body div.main div.m_container div.leader section.person img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-right: 4%;
+	margin-left: 16%;
+
+	
+}
+body div.main div.m_container div.file{
+	color: rgb(29,157,115);
+}
+body div.main div.m_container div.file a{
+	color: peru;
+	text-decoration: none;
+
+}
